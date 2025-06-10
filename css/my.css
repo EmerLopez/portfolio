@@ -1,0 +1,345 @@
+ .carousel-wrapper {
+            width: 1380px; /* Tamaño reducido */
+            max-width:200%;
+          }
+        
+          /* Ajuste de altura opcional para uniformidad */
+          .carousel-inner img {
+            height: 850px;
+            object-fit: cover;
+            border-radius: 10px;
+          }
+        
+          /* Estilos de botones (puedes mantener los anteriores o ajustarlos) */
+          .carousel-control-prev,
+          .carousel-control-next {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        
+          .carousel-control-prev-icon,
+          .carousel-control-next-icon {
+            filter: invert(1);
+            width: 20px;
+            height: 20px;
+          }
+        /* Reducir altura del navbar */
+        #mainNav {
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          font-size: 0.9rem; /* tamaño de texto más pequeño */
+        }
+
+        /* Reducir padding de los links */
+        #mainNav .nav-link {
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          font-weight: 400; /* peso de fuente normal */
+        }
+
+        /* Reducir tamaño del logo */
+        #mainNav .navbar-brand img {
+          height: 50px !important;
+          width: 50px !important;
+        }
+
+        /* Reducir tamaño del botón del menú en móviles */
+        .navbar-toggler {
+          padding: 0.25rem 0.5rem;
+          font-size: 0.8rem;
+        }
+
+        .footer {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          font-size: 0.85rem;
+        }
+
+        .footer h4 {
+          font-size: 1rem;
+          margin-bottom: 0.5rem;
+        }
+
+        .footer p.lead {
+          font-size: 0.8rem;
+          margin-bottom: 0.5rem;
+        }
+
+        .footer .btn-social {
+          width: 30px;
+          height: 30px;
+          font-size: 0.75rem;
+          padding: 0.25rem;
+        }
+
+        .footer .col-lg-4 {
+          margin-bottom: 1rem;
+        }
+
+       
+        /*Tarjetas proyectos*/
+        .card {
+        width: 190px;
+        background: white;
+        padding: .4em;
+        border-radius: 6px;
+        }
+
+        .card-image {
+        background-color: rgb(236, 236, 236);
+        width: 100%;
+        height: 130px;
+        border-radius: 6px 6px 0 0;
+        }
+
+        .card-image:hover {
+        transform: scale(0.98);
+        }
+
+        .category {
+        text-transform: uppercase;
+        font-size: 0.7em;
+        font-weight: 600;
+        color: rgb(63, 121, 230);
+        padding: 10px 7px 0;
+        }
+
+        .category:hover {
+        cursor: pointer;
+        }
+
+        .heading {
+        font-weight: 600;
+        color: rgb(88, 87, 87);
+        padding: 7px;
+        }
+
+        .heading:hover {
+        cursor: pointer;
+        }
+
+        .author {
+        color: gray;
+        font-weight: 400;
+        font-size: 11px;
+        padding-top: 20px;
+        }
+
+        .name {
+        font-weight: 600;
+        }
+
+        .name:hover {
+        cursor: pointer;
+        }
+
+
+        /* Espacio entre tarjetas */
+       .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 2rem;
+        }
+
+        .card {
+        width: 300px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        padding: 1rem;
+        }
+
+        .card:hover {
+        transform: scale(1.05);
+        }
+
+        .card-image {
+        height: 180px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        }
+
+        .category {
+        font-weight: bold;
+        color: #555;
+        margin-bottom: 0.5rem;
+        }
+
+        .heading {
+        font-size: 1rem;
+        color: #333;
+        }
+
+        .author {
+        font-size: 0.875rem;
+        color: #777;
+        margin-top: 0.5rem;
+        }
+
+
+
+        /*Ajuste de espacio PROYECTOS*/
+     #proyect .masthead {
+    padding-top: 2rem !important; /* menos espacio arriba */
+    padding-bottom: 2rem; /* opcional: también abajo */
+    }
+
+    #proyect .masthead h1 {
+        margin-top: 0; /* eliminar margen superior del título */
+    }
+
+    /* TAMAÑO DEL MODAL*/
+
+    .custom-modal-size {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    }
+
+    .custom-modal-size .modal-content {
+    border-radius: 12px;
+    padding: 20px;
+    }
+
+    .tech-tags {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px;
+    justify-content: center;
+    }
+     /* TECNOLOGIAS*/
+
+    .tech-tags .tag {
+    background-color: #f2c784;
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+    }
+
+    .tech-tags .tag:hover {
+    background-color: #acbceb;
+    color: #0056b3;
+    }
+
+    /* CARRUSEL MODAL*/
+
+    .modal-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.carousel .carousel-item img {
+  object-fit: cover;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+    /* tarjeta premios y reconocimientos*/
+/* From Uiverse.io by Artahs */ 
+.card1 {
+  position: relative;
+  width: 190px;
+  height: 254px;
+  background-color: #fff;
+  border-radius: 20px;
+  /*box-shadow: 0px 5px 5px #313131;*/
+  overflow: hidden;
+}
+
+.top-card1 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 65%;
+  transition: height 0.3s ease;
+  background-color: #fff;
+}
+
+.bottom-card1 {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 35%;
+  transition: height 0.3s ease;
+  background-color: #0a3cff;
+}
+
+.bottom-card::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 89px;
+  height: 50px;
+  width: 175px;
+  transition: bottom 0.3s ease;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 30px 0 0 #0a3cff;
+}
+
+.card-content1 {
+  padding-top: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.card-title1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.card-txt1 {
+  font-size: 14px;
+}
+
+.card-btn1 {
+  font-size: 13px;
+  margin-top: 15%;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border: solid 2px #fff;
+  border-radius: 15px;
+  padding: 5%;
+}
+
+.card:hover {
+  box-shadow: 0px 2px 2px #0a3bffa1;
+  border: solid 1px #0a3cff;
+}
+
+.card:hover .top-card {
+  height: 35%;
+  transition: height 0.3s ease;
+}
+.card:hover .bottom-card {
+  height: 65%;
+  transition: height 0.3s ease;
+}
+.card:hover .bottom-card::before {
+  bottom: 164px;
+  transition: bottom 0.3s ease;
+}
+
+.card-btn:hover {
+  color: black;
+  background-color: #fff;
+  transition: background-color 0.4s ease;
+}
+
