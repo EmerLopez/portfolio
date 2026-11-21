@@ -30,12 +30,11 @@ El diseño sigue una línea estética **Enterprise Tech Blue & Slate Modern**, e
 
 * 🌐 **Internacionalización Dinámica (i18n):** Alterna en tiempo real entre **Español** e **Inglés** mediante un motor propio en JavaScript respaldado por un catálogo de traducciones estructurado en JSON (`js/translations.json`) y persistencia en `localStorage`.
 * 📱 **Diseño 100% Responsivo:** Adaptado meticulosamente para teléfonos móviles, tablets y monitores de alta resolución con Bootstrap 5 y CSS Grid/Flexbox.
-* ⚡ **Casos de Estudio Detallados:** Presentación de 4 proyectos con enfoque en problemas resueltos, arquitectura técnica, rol y repositorios:
+* ⚡ **Casos de Estudio Detallados:** Presentación de 3 proyectos con enfoque en problemas resueltos, arquitectura técnica, rol y repositorios:
   * **Enterprise Digital Transform:** Plataforma empresarial de gran escala (ERP + E-Commerce B2B/B2C + Facturación Electrónica DTE) desarrollada con NestJS v11, React 19, Vite 7, TypeScript, PostgreSQL 18 y TypeORM.
   * **[Shulton Parking](https://github.com/EmerLopez):** Sistema web de geolocalización y reserva de parqueos (PHP, MySQL, JavaScript, Google Maps API, Bootstrap 5).
-  * **[Wonderzoo](https://github.com/EmerLopez):** Software de escritorio educativo para niños (C# .NET, POO, MySQL).
   * **[Portafolio Personal Web](https://github.com/EmerLopez/portfolio):** Plataforma web profesional con arquitectura moderna, i18n dinámico en JS/JSON, ingeniería agéntica y accesibilidad WCAG 2.1 AA.
-* 🛠️ **Matriz de Habilidades Técnicas:** Desglose categorizado en Backend (NestJS, TypeScript, PHP, C#), Frontend (React, Vite, Tailwind, JS), Bases de Datos (PostgreSQL, TypeORM, MySQL), **Inteligencia Artificial Agéntica** y Herramientas/Redes.
+* 🛠️ **Matriz de Habilidades Técnicas:** Desglose categorizado en Backend (NestJS, TypeScript, PHP, C#), Frontend (React, Vite, Tailwind, JS), Bases de Datos (PostgreSQL, TypeORM, MySQL), **Inteligencia Artificial Agéntica** y Herramientas, Despliegue & Redes.
 * 🤖 **Desarrollo con IA Agéntica:** Dominio práctico de **Google Antigravity IDE**, **Antigravity CLI (`agy`)**, **Open Code**, creación de skills (`.agents/skills/`), arquitectura Model Context Protocol (MCP) y orquestación de agentes autónomos.
 * 📬 **Canales de Contacto Directo:** Enlaces verificados a correo electrónico, LinkedIn, GitHub y ubicación física.
 * 📜 **Cartas de Recomendación y Certificados:** Visualización interactiva mediante modales optimizados de credenciales académicas (Cisco CCNA 1 & 2) y cartas docentes.
@@ -69,11 +68,11 @@ portfolio/
 
 ## 💻 Tecnologías Utilizadas
 
-- **Backend & Arquitectura:** NestJS (v11), TypeScript, TypeORM, PHP, C# (.NET), Python, JWT & RBAC, Swagger/OpenAPI.
-- **Frontend & UI:** React 19, Vite 7, Tailwind CSS, JavaScript (Vanilla ES6+), HTML5 Semántico, CSS3, Bootstrap 5.
+- **Backend & Arquitectura:** NestJS (v11), TypeScript, TypeORM, Pruebas Unitarias Automatizadas (Testing), Facturación Electrónica (DTE), PHP, C# (.NET), Python, JWT & RBAC, Swagger/OpenAPI.
+- **Frontend & UI:** React 19, Vite 7, Tailwind CSS, JavaScript (Vanilla ES6+), Figma (Básico & Prototipado UI), HTML5 Semántico, CSS3, Bootstrap 5.
 - **Bases de Datos:** PostgreSQL 18, Neon Serverless, MySQL (Diseño relacional, DDL/DML, migraciones estructuradas).
 - **Inteligencia Artificial Agéntica:** Google Antigravity IDE, Antigravity CLI (`agy`), Open Code, Model Context Protocol (MCP), Agentic Workflows, Tool / Function Calling.
-- **Herramientas & Redes:** Git, GitHub, pnpm / npm, Cisco CCNA 1 & 2, Postman, Linux.
+- **Herramientas, Despliegue & Redes:** Git, GitHub, Despliegue Web Básico (Cloud Hosting, Vercel/Netlify), pnpm / npm, Cisco CCNA 1 & 2, Postman, Linux.
 
 ---
 
